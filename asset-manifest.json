@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/syskon/static/css/main.bde5887e.chunk.css",
+    "main.js": "/syskon/static/js/main.d5aa7e59.chunk.js",
+    "main.js.map": "/syskon/static/js/main.d5aa7e59.chunk.js.map",
+    "runtime-main.js": "/syskon/static/js/runtime-main.577cab1a.js",
+    "runtime-main.js.map": "/syskon/static/js/runtime-main.577cab1a.js.map",
+    "static/js/2.4e5e23d4.chunk.js": "/syskon/static/js/2.4e5e23d4.chunk.js",
+    "static/js/2.4e5e23d4.chunk.js.map": "/syskon/static/js/2.4e5e23d4.chunk.js.map",
+    "index.html": "/syskon/index.html",
+    "precache-manifest.bc1d1b5b4fb6f8321a583c8f5d826069.js": "/syskon/precache-manifest.bc1d1b5b4fb6f8321a583c8f5d826069.js",
+    "service-worker.js": "/syskon/service-worker.js",
+    "static/css/main.bde5887e.chunk.css.map": "/syskon/static/css/main.bde5887e.chunk.css.map",
+    "static/js/2.4e5e23d4.chunk.js.LICENSE.txt": "/syskon/static/js/2.4e5e23d4.chunk.js.LICENSE.txt",
+    "static/media/company.png": "/syskon/static/media/company.28e1fd36.png",
+    "static/media/img_01.jpg": "/syskon/static/media/img_01.831ff481.jpg",
+    "static/media/mainbar.png": "/syskon/static/media/mainbar.41a335b3.png",
+    "static/media/syskon1.png": "/syskon/static/media/syskon1.be3a324b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.577cab1a.js",
+    "static/js/2.4e5e23d4.chunk.js",
+    "static/css/main.bde5887e.chunk.css",
+    "static/js/main.d5aa7e59.chunk.js"
+  ]
+}
