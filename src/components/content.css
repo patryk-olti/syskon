@@ -1,0 +1,392 @@
+.content__wrapper{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    min-height: 80vh;
+}
+
+.content__leftBar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    max-width: 1050px;
+    margin-top: 10px;
+}
+
+/* Default Page Properties */
+.content__leftBar h1{
+    padding: 40px 0 40px;
+    font-size: 2.4rem;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.content__leftBar h2{
+    padding: 20px;
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+}
+
+.content__leftBar .txt{
+    padding: 0 80px 50px;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+/* Company Page CSS */
+/* 1 */
+.first .img{
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+.first .img img{
+    width: 100%;
+    height: 100%;
+}
+
+.first .slider{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 700px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.first .slider .device{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.first .slider .place{
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+.first .slider .date{
+    padding: 5px;
+    font-size: 0.9rem;
+    text-align: center;
+
+}
+
+.first .slider .txt{
+    padding: 0 0 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.first .slider .dots{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    padding: 10px;
+}
+
+
+.first .slider .dot{
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+    transition: 1s;
+}
+
+.first .slider .active{
+    background-color: rgb(125, 161, 207);
+    transform: scale(1.4);
+}
+
+
+/* Product Page CSS */
+/* 2 */
+
+.mainProduct{
+    width: 100vw;
+    max-width: 1000px;
+    margin-bottom: 20px;
+
+    background-color: rgba(214, 234, 248, 0.5);
+    border-bottom: 1px solid rgba(75, 75, 75, 0.7);
+    box-shadow: 0px 4px 5px 0px rgba(75, 75, 75, 0.32);
+}
+
+.Product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+    font-size: 1rem;
+    line-height: 150%;
+}
+
+.Product .Product_title{
+    font-weight: bold;
+    padding: 5px 0 15px;
+
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+
+.Product .Product_description{
+    text-align: center;
+}
+
+.Product .Product_place{
+    margin: 14px 0 30px;
+    font-size: 0.8rem;
+}
+
+.Product button{
+    padding: 5px 20px;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: background-color, 0.5s;
+}
+
+.Product button::before{
+    content: "";
+    background-color: rgb(243, 125, 125);
+    z-index: 99;
+}
+
+.Product button:hover{
+    background-color: rgb(243, 85, 85);
+}
+
+.Product .separator{
+    width: 95%;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid rgb(221, 214, 214);
+}
+
+.Product .separator .title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+.Product .separator .txt{
+    font-size: 1rem;
+    padding: 20px 0;
+    line-height: 150%;
+}
+
+.Product button:disabled{
+    opacity: 0.5;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.Product .statistics{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 30px;
+}
+
+.Product .statistics .tile{
+    width: 24%;
+    padding: 0 10px;
+}
+
+.Product .statistics .tile .txt{
+    font-size: 0.6rem;
+    line-height: 200%;
+    text-align: center;
+}
+
+.Product .statistics .tile:nth-of-type(1){
+    border-right: 1px solid rgb(224, 216, 216);
+}
+
+.Product .statistics .tile:nth-of-type(2){
+    border-right: 1px solid rgb(224, 216, 216);
+}
+
+.Product .statistics .tile:nth-of-type(3){
+    border-right: 1px solid rgb(224, 216, 216);
+}
+
+.Product .statistics i{
+    font-size: 2.4rem;
+}
+
+.Product .statistics .title{
+    font-size: 0.9rem;
+    line-height: 140%;
+    text-align: center;
+}
+
+.Product .statistics ul{
+    list-style-type: none;
+}
+
+.Product .statistics li{
+    font-size: 0.6rem;
+    line-height: 200%;
+}
+
+/*Installed PAge CSS */
+/* 3 */
+.installed{
+    display: flex;
+    justify-content: space-between;
+    width: 950px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+
+    border-right: 1px solid rgba(170, 170, 170, 0.4);
+    background-color: rgba(214, 234, 248, 0.5);
+    box-shadow: 0px 4px 5px 0px rgba(75, 75, 75, 0.32);
+}
+
+.installed .title{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    line-height: 150%;
+    flex-grow: 1;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 10px;
+    text-align: center;
+    border-right: 1px solid rgba(190, 182, 182, 0.4);
+}
+
+.installed ul{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-left: 20px;
+    width: 200px;
+}
+
+.installed li{
+    list-style-type: none;
+    line-height: 150%;
+    text-align: left;
+}
+
+
+.installed li span{
+    font-weight: bold;
+}
+
+/* Galery Page CSS */
+/* 4 */
+.fourth{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.fourth .img{
+    width: 23%;
+    margin: 5px;
+    border: 2px solid transparent;
+    overflow: hidden;
+}
+
+.fourth img{
+    position: relative;
+    width: 100%;
+    transition: .2s;
+}
+
+.fourth .img:hover{
+    border: 2px solid black;
+}
+
+/* Auction Page CSS */
+/* 5 */
+.auction{
+    width: 950px;
+    padding: 20px;
+    margin-bottom: 20px;
+
+    background-color: rgba(214, 234, 248, 0.5);
+    text-align: center;
+    line-height: 150%;
+    box-shadow: 0px 4px 5px 0px rgba(75, 75, 75, 0.32);
+}
+
+.auction .name{
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.auction .more{
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+}
+
+.auction .date{
+    font-size: 0.9rem;
+}
+
+.auction .status{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+/* Contact Page CSS */
+/* 6 */
+.sixth .img{
+    width: 500px;
+    margin-bottom: 75px;
+    border: 2px solid black;
+}
+
+.sixth img{
+    width: 100%;
+    height: 100%;
+}
+
+.sixth .txt{
+    padding: 0;
+    font-size: 1.2rem;
+    line-height: 150%;
+    text-align: center;
+}
+
+.tiles{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+}
+
+.tiles i{
+    margin: 10px 0 50px;
+    font-size: 4.8rem;
+    color: black;
+}
+
+.tiles .tile{
+    width: 23%;
+    flex-wrap: wrap;
+}
+
+span{
+    font-weight: 700;
+}
